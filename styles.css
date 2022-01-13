@@ -2,20 +2,26 @@ html, body {
   height: 100%;
 }
 
-
 body {
   background-color: #f5f5f5 !important;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 .form {
   max-width: 600px;
   width: 100%;
   margin: auto;
-
 }
 
 .form-signin {
@@ -31,15 +37,15 @@ body {
 
 .form-signin .form-floating:focus-within {
   z-index: 2;
-
 }
+
 .top {
   border-bottom-right-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
   margin-bottom: -1px;
 }
 
-.middle{
+.middle {
   border-radius: 0 !important;
 }
 
@@ -55,7 +61,6 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 } */
-
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
